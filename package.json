@@ -1,0 +1,37 @@
+{
+    "name": "jsl",
+    "version": "1.0.0",
+    "homepage": "https://github.com/jaredwilli/jsl",
+    "author": {
+        "name": "Jared Williams",
+        "url": "http://jslov.com/"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/jaredwilli/jsl.git"
+    },
+    "license": "MIT",
+    "engines": {
+        "node": ">=8"
+    },
+    "devDependencies": {
+        "react-styleguidist": "^6.1.0"
+    },
+    "dependencies": {
+        "babel-eslint": "^8.0.3",
+        "dog-names": "^1.0.2",
+        "lodash": "^4.17.4",
+        "prop-types": "^15.6.0",
+        "react": "^16.2.0",
+        "react-dom": "^16.2.0",
+        "react-scripts": "^1.0.17"
+    },
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test --env=jsdom",
+        "eject": "react-scripts eject",
+        "styleguide": "styleguidist server",
+        "styleguide:build": "styleguidist build"
+    }
+}
